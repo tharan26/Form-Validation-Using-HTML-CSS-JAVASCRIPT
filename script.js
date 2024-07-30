@@ -38,7 +38,11 @@ function validateform(){
     else
     {
         alert("Thank you for your order");
-        return true;
+            document.getElementById("fname").value="";
+            document.getElementById("lname").value="";
+            document.getElementById("city").value="";
+            document.getElementById("number").value="";
+            document.getElementById("addr").value="";
     }
     
 }
