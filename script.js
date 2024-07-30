@@ -8,36 +8,30 @@ function validateform(){
     if(fname==null || fname=="")
     {
         alert("Enter your name");
-        return false;
     }
     else if(lname==null || lname=="")
         {
             alert("Enter your last name");
-            return false;
         }
     else if(city==null || city=="")
         {
             alert("Enter your city");
-            return false;
         }
     else if(number==null || number=="")
         {
             alert("Enter your number");
-            return false;
         }
     else if(addr==null || addr=="")
         {
             alert("Enter your address");
-            return false;
         }
     else if(number.length!=10)
     {
             alert("Invalid Number");
-            return false;
     }
     else
     {
-        alert("Thank you for your order");
+        alert("Form Submitted Successfully");
             document.getElementById("fname").value="";
             document.getElementById("lname").value="";
             document.getElementById("city").value="";
