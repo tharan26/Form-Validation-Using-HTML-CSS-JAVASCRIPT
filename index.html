@@ -12,7 +12,7 @@
 <body>
     <div class="section">
         <div class="container-fluid">
-            <form action="message.html" onsubmit=validateform() name="validation">
+            <form action="message.html" name="validation">
             <div class="row mb-3">
               <div class="col-3">
                 <label for="inputEmail3">First Name</label>
@@ -54,7 +54,7 @@
                     </div>
                   </div>
                   <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-primary" id="bt" type="submit">Submit</button>
+                    <button class="btn btn-primary" id="bt" type="submit" onsubmit=validateform()>Submit</button>
                   </div>
             </form>
             
